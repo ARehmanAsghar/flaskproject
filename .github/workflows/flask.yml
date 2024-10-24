@@ -34,7 +34,7 @@ jobs:
 
       - name: Push Docker image to Amazon ECR
         run: |
-          docker push ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/flask-app:latest
+          docker push 977098996766.dkr.ecr.ap-south-1.amazonaws.com/flask-app:latest
 
   # deploy:
   #   needs: build
